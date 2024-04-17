@@ -587,7 +587,7 @@ class ProfilePage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Icon(Icons.account_circle, size: 100.0),
-            Text('Admin'),
+            Text('Admin', style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),),
             Text('0 Seguidor    0 Seguindo'),
             SizedBox(height: 10,),
           ElevatedButton(
