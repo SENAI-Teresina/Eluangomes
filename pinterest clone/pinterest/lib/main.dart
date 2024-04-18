@@ -117,10 +117,20 @@ Widget build(BuildContext context) {
       padding: const EdgeInsets.all(10.0),
       child: GridView.count(
         crossAxisCount: 2, // Duas colunas
-        mainAxisSpacing: 10, // Espaçamento vertical entre os itens
-        crossAxisSpacing: 10, // Espaçamento horizontal entre os itens
+        mainAxisSpacing: 5, // Espaçamento vertical entre os itens
+        crossAxisSpacing: 5, // Espaçamento horizontal entre os itens
         children: [
-          Card(
+          ClipRRect(
+            borderRadius: BorderRadius.circular(15.0),
+            child: Image.asset(
+              './assets/images/imgs1.jpg',
+              width: double.infinity,
+              height: 200,
+              fit: BoxFit.cover,
+            ),
+          ),         
+          ClipRRect(
+            borderRadius: BorderRadius.circular(15.0),
             child: Image.asset(
               './assets/images/imgs1.jpg',
               width: double.infinity,
@@ -128,143 +138,6 @@ Widget build(BuildContext context) {
               fit: BoxFit.cover,
             ),
           ),
-          Card(
-            child: Image.asset(
-              './assets/images/imgs2.jpg',
-              width: double.infinity,
-              height: 200,
-              fit: BoxFit.cover,
-            ),
-          ),
-          Card(
-            child: Image.asset(
-              './assets/images/imgs2.jpg',
-              width: double.infinity,
-              height: 200,
-              fit: BoxFit.cover,
-            ),
-          ),
-          Card(
-            child: Image.asset(
-              './assets/images/imgs1.jpg',
-              width: double.infinity,
-              height: 200,
-              fit: BoxFit.cover,
-            ),
-          ),
-          Card(
-            child: Image.asset(
-              './assets/images/imgs1.jpg',
-              width: double.infinity,
-              height: 200,
-              fit: BoxFit.cover,
-            ),
-          ),
-          Card(
-            child: Image.asset(
-              './assets/images/imgs2.jpg',
-              width: double.infinity,
-              height: 200,
-              fit: BoxFit.cover,
-            ),
-          ),
-          Card(
-            child: Image.asset(
-              './assets/images/imgs2.jpg',
-              width: double.infinity,
-              height: 200,
-              fit: BoxFit.cover,
-            ),
-          ),
-          Card(
-            child: Image.asset(
-              './assets/images/imgs1.jpg',
-              width: double.infinity,
-              height: 200,
-              fit: BoxFit.cover,
-            ),
-          ),
-          Card(
-            child: Image.asset(
-              './assets/images/imgs1.jpg',
-              width: double.infinity,
-              height: 200,
-              fit: BoxFit.cover,
-            ),
-          ),
-          Card(
-            child: Image.asset(
-              './assets/images/imgs2.jpg',
-              width: double.infinity,
-              height: 200,
-              fit: BoxFit.cover,
-            ),
-          ),
-          Card(
-            child: Image.asset(
-              './assets/images/imgs2.jpg',
-              width: double.infinity,
-              height: 200,
-              fit: BoxFit.cover,
-            ),
-          ),
-          Card(
-            child: Image.asset(
-              './assets/images/imgs1.jpg',
-              width: double.infinity,
-              height: 200,
-              fit: BoxFit.cover,
-            ),
-          ),
-          Card(
-            child: Image.asset(
-              './assets/images/imgs1.jpg',
-              width: double.infinity,
-              height: 200,
-              fit: BoxFit.cover,
-            ),
-          ),
-          Card(
-            child: Image.asset(
-              './assets/images/imgs2.jpg',
-              width: double.infinity,
-              height: 200,
-              fit: BoxFit.cover,
-            ),
-          ),
-          Card(
-            child: Image.asset(
-              './assets/images/imgs2.jpg',
-              width: double.infinity,
-              height: 200,
-              fit: BoxFit.cover,
-            ),
-          ),
-          Card(
-            child: Image.asset(
-              './assets/images/imgs1.jpg',
-              width: double.infinity,
-              height: 200,
-              fit: BoxFit.cover,
-            ),
-          ),
-          Card(
-            child: Image.asset(
-              './assets/images/imgs1.jpg',
-              width: double.infinity,
-              height: 200,
-              fit: BoxFit.cover,
-            ),
-          ),
-          Card(
-            child: Image.asset(
-              './assets/images/imgs2.jpg',
-              width: double.infinity,
-              height: 200,
-              fit: BoxFit.cover,
-            ),
-          ),
-          
         ],
       ),
     ),
@@ -367,14 +240,6 @@ Widget build(BuildContext context) {
                   ),
                 ),
               ),
-              Expanded(
-                child: Card(
-                  child: Image.asset(
-                    './assets/images/card5.jpg',
-                    fit: BoxFit.cover, // Ajusta a imagem para cobrir todo o espaço do Card
-                  ),
-                ),
-              ),
             ],
           ),
           Row(
@@ -391,14 +256,6 @@ Widget build(BuildContext context) {
                 child: Card(
                   child: Image.asset(
                     './assets/images/card4.jpg',
-                    fit: BoxFit.cover, // Ajusta a imagem para cobrir todo o espaço do Card
-                  ),
-                ),
-              ),
-              Expanded(
-                child: Card(
-                  child: Image.asset(
-                    './assets/images/card.jpg',
                     fit: BoxFit.cover, // Ajusta a imagem para cobrir todo o espaço do Card
                   ),
                 ),
@@ -479,6 +336,10 @@ Widget build(BuildContext context) {
         children: [
           Text(
             'Atualizações',
+            style: TextStyle(decoration: TextDecoration.underline),
+          ),
+          Text(
+            'Caixa de Entrada',
             style: TextStyle(decoration: TextDecoration.underline),
           ),
           Icon(Icons.share),
@@ -588,7 +449,7 @@ class ProfilePage extends StatelessWidget {
           children: [
             Icon(Icons.account_circle, size: 100.0),
             Text('Admin', style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),),
-            Text('0 Seguidor    0 Seguindo'),
+            Text('0 Seguidor   0 Seguindo'),
             SizedBox(height: 10,),
           ElevatedButton(
             onPressed: () {},
