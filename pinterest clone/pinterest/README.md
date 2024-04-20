@@ -174,4 +174,4 @@ O estilo do botão, incluindo a cor de fundo vermelha e o texto em negrito branc
 O texto dentro do botão é definido usando a propriedade child como um Text.
 
 <hr>
-<buttom><a href="https://pinterest.com.br" target="_blank">pinterest</a></buttom>
+<buttom><a href="https://br.pinterest.com" target="_blank">pinterest</a></buttom>
