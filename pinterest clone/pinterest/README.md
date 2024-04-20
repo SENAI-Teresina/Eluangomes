@@ -1,7 +1,7 @@
 Código Flutter
 <hr>
 ROTAS
-<hr>
+
 ![image](https://github.com/SENAI-Teresina/Eluangomes/assets/138584490/35da0334-5ffe-4142-96cc-e6e0f1dc989f)
 
 - Em resumo, o código cria um aplicativo com várias telas e uma barra de navegação inferior que permite ao usuário alternar entre essas telas. Cada tela é representada por um widget e é exibida dinamicamente conforme selecionada pelo usuário.
@@ -10,7 +10,7 @@ ROTAS
 - Cada vez que o usuário navega para uma nova tela, o Flutter utiliza as rotas pré-configuradas para exibir o widget correspondente à página desejada. Isso simplifica a navegação dentro do aplicativo e permite que o desenvolvedor organize e gerencie as diferentes telas de forma eficiente.
 <hr>
 WIDGETS:
-<hr>
+
 - MaterialApp:
 Este é o widget principal que define a estrutura básica do aplicativo Flutter.
 Ele é responsável por configurar o tema, as rotas e outras configurações globais do aplicativo.
@@ -32,7 +32,7 @@ Este widget exibe texto na interface do usuário.
 É usado para exibir os rótulos dos itens na barra de navegação inferior.
 <hr>
 TELA INICIAL
-<hr>
+
 ![image](https://github.com/SENAI-Teresina/Eluangomes/assets/138584490/9edfe390-9e13-4b07-93cf-e553377f9453)
 
 - Esse código cria uma página inicial (HomePage) que exibe uma barra de aplicativo (AppBar) com um título centralizado ("Tudo") e um corpo (body) que consiste em uma pilha (Stack).
@@ -53,7 +53,7 @@ No código a cima , os principais widgets são:
 - ClipRRect - Um widget que recorta seu filho com uma borda arredondada.
 <hr>
   TELA DE PESQUISA
- <hr> 
+
   ![image](https://github.com/SENAI-Teresina/Eluangomes/assets/138584490/95b865c7-b48a-4096-aee5-916d3d628462)
 
 Este código Flutter define um widget chamado SearchPage que representa uma página de pesquisa com uma barra de pesquisa na parte superior e várias seções de conteúdo abaixo dela. Vamos explicar o que cada parte do código faz:
@@ -98,7 +98,7 @@ Os widgets no código fornecido:
 Esses são os principais widgets presentes no código SearchPage. Cada um deles desempenha um papel na construção da interface do usuário da página de pesquisa.
 <hr>
 ICONE CRIAR
-<hr>
+
 ![image](https://github.com/SENAI-Teresina/Eluangomes/assets/138584490/e7bba97f-6c08-42ef-95b4-979c77a09e64)
 
 A classe serve para criar ou adicionar uma postagem, ela vai ser  sem controle de estado devido ao “StatelessWidget”. O widget da classe será em forma “Scalffold”. 
@@ -116,7 +116,7 @@ A classe serve para criar ou adicionar uma postagem, ela vai ser  sem controle d
 - Child: Text('Bottom Sheet'): Ele é apenas o texto do botão.
 <hr>
   TELA DE NOTIFICAÇÕES
- <hr> 
+
   ![image](https://github.com/SENAI-Teresina/Eluangomes/assets/138584490/87ce79e7-bff3-4d70-b178-3c91ab0985f4)
 
 Em resumo, o código cria uma tela de notificações em um aplicativo Flutter. A tela contém uma barra de aplicativo com dois títulos ("Atualizações" e "Caixa de Entrada") e um ícone de compartilhamento. Abaixo da barra de aplicativo, há um corpo que exibe uma lista de imagens com títulos associados. As imagens são exibidas em duas linhas horizontais, cada uma contendo três imagens, e cada imagem possui bordas arredondadas. As imagens e títulos são exibidos em uma coluna vertical. Essa tela pode ser usada para visualizar notificações e conteúdo relacionado.
@@ -138,7 +138,7 @@ WIDGETS:
 - 
 <hr>
 TELA DE PERFIL
-<hr>
+
 ![image](https://github.com/SENAI-Teresina/Eluangomes/assets/138584490/9b8cda2c-55c7-44c2-89d5-5ba10336c9f5)
 
 Esse código resulta em uma página de perfil simples com um nome de usuário, contagem de seguidores, um botão para editar o perfil e ações na barra de aplicativo para compartilhar e acessar as configurações
